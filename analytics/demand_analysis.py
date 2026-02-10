@@ -1,3 +1,9 @@
+"""
+Product-level demand analysis aggregation.
+
+This module handles STEP 1 of the analytics pipeline:
+aggregating raw sales data to product-level metrics.
+"""
 
 import pandas as pd
 
@@ -58,3 +64,16 @@ def aggregate_product_demand(df: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
+def aggregate_category_demand(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Aggregate raw sales data to category-level demand metrics.
+
+    INPUT:
+    Expects a clean Pandas DataFrame with columns:
+    - product (string, non-empty)
+    - date (string, format YYYY-MM-DD)
+    - quantity (int > 0)
+    - revenue (float)
+    - category (string; may be missing or empty)
+
+    OUTPUT:
