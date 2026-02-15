@@ -124,6 +124,10 @@ bash
 
 python -m ingestion.run_pipeline sample_inventory.csv
 
+### Option 2 (Directly from child Folder)
+
+python run_pipeline.py
+
 ---
 
 
