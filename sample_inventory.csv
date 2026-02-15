@@ -1,0 +1,11 @@
+Product ID,Product Name,Category,Quantity On Hand,Reorder Point,Unit Cost,Selling Price,Last Purchase Date
+P001,Laptop,Electronics,15,5,600,899,2025-12-20
+P002,Mouse,Accessories,50,20,15,25,2026-01-15
+P003,Keyboard,Accessories,35,15,30,60,2026-01-10
+P004,Monitor,Electronics,10,3,200,350,2025-11-30
+P005,Desk Lamp,Furniture,25,10,45,75,2026-01-05
+P006,Office Chair,Furniture,5,8,120,200,2026-01-12
+P007,Webcam,Electronics,,7,40,80,2026-01-02
+P008,USB Cable,Accessories,100,30,3,8,2026-01-18
+P009,Notebook,Furniture,40,15,5,12,2026-01-01
+P002,Mouse,Accessories,50,20,15,25,2026-01-15
