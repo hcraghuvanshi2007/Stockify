@@ -77,3 +77,24 @@ def aggregate_category_demand(df: pd.DataFrame) -> pd.DataFrame:
     - category (string; may be missing or empty)
 
     OUTPUT:
+    Returns a DataFrame with exactly these columns:
+    - category (string)
+    - revenue (number) → sum of revenue per category
+    - quantity (number) → sum of quantity per category
+
+    CATEGORY HANDLING:
+    - Normalizes category values by trimming whitespace.
+    - Replaces missing, empty, or whitespace-only values with "Uncategorized".
+    - Groups all normalized categories together.
+
+    SORTING:
+    - Output is sorted by revenue in DESCENDING order.
+
+    ASSUMPTIONS:
+    - Input DataFrame is already clean (schema validation handled by ingestion layer).
+    - All rows are valid; no further validation performed.
+    - Output is JSON-serializable (no NaN or Infinity).
+
+    ARGS:
+        df: Clean sales data DataFrame.
+
