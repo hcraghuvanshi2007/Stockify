@@ -1,11 +1,6 @@
 Product ID,Product Name,Category,Quantity On Hand,Reorder Point,Unit Cost,Selling Price,Last Purchase Date
-P001,Laptop,Electronics,15,5,600,899,2025-12-20
-P002,Mouse,Accessories,50,20,15,25,2026-01-15
-P003,Keyboard,Accessories,35,15,30,60,2026-01-10
-P004,Monitor,Electronics,10,3,200,350,2025-11-30
-P005,Desk Lamp,Furniture,25,10,45,75,2026-01-05
-P006,Office Chair,Furniture,5,8,120,200,2026-01-12
-P007,Webcam,Electronics,,7,40,80,2026-01-02
-P008,USB Cable,Accessories,100,30,3,8,2026-01-18
-P009,Notebook,Furniture,40,15,5,12,2026-01-01
-P002,Mouse,Accessories,50,20,15,25,2026-01-15
+P001,Coffee Beans,Beverages,120,30,3.50,5.99,2026-01-10
+P002,Green Tea,Beverages,80,20,2.00,3.99,2026-01-12
+P003,Chocolate Bar,Snacks,200,50,0.75,1.99,2026-01-05
+P004,Almond Milk,Beverages,50,15,1.20,2.49,2025-12-28
+P005,Trail Mix,Snacks,95,25,1.80,3.49,2026-01-20
