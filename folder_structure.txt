@@ -1,0 +1,36 @@
+app.py
+README.md
+requirements.txt
+analytics/
+	demand_analysis.py
+	kpi_calculator.py
+	trend_analysis.py
+decision_support/
+	recommendations.py
+	reorder_logic.py
+	stock_alerts.py
+docs/
+	architecture.md
+	deployment.md
+	future_scope.md
+frontend/A
+	layout.py
+	navigation.py
+	pages/
+		dashboard.py
+		home.py
+		insights.py
+		upload.py
+ingestion/
+	data_cleaner.py
+	file_uploader.py
+	schema_validator.py
+utils/
+	config.py
+	constants.py
+	helpers.py
+visualization/
+	alert_visuals.py
+	demand_charts.py
+	kpi_cards.py
+	trend_charts.py
